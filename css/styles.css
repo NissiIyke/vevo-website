@@ -1,6 +1,11 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    cursor: pointer;
 }
 
 ul {
@@ -56,6 +61,7 @@ a {
 }
 .Section-container {
     background-color: rgb(177, 22, 53);
+    height: 500px;
 }
 h3 {
     font-size: 70px;
@@ -109,3 +115,91 @@ h3 {
     padding: 10px;
     margin: 10px;
 }
+.blackcont {
+    background-color: black;
+    height: 1000px;
+    width: 100%;
+}
+.blackword {
+    background-color: black;
+    height: 20%;
+    width: 95%;
+    margin: auto;
+}
+.blackword p {
+    font-size: 60px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.blackword p:first-child {
+    padding-top: 20px;
+    color: white;
+}
+.blackword p:nth-child(2) {
+    color: rgb(117, 92, 117);
+}
+.blackimage {
+    height: 70%;
+    width: 95%;
+    margin: auto;
+}
+
+.blackimage img {
+    height: 100%;
+    width: 100%;
+}
+.thirdgeneral {
+    display: flex;
+justify-content: space-between;
+align-items: center;
+
+    height: 10%;
+    width: 95%;
+    color: white;
+    margin: auto;
+}
+.lastsection{
+    width: 50%;
+}
+.lastsection p {
+     font-size: 40px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lastsection p:first-child {
+    color: white;
+}
+.lastsection p:nth-child(2) {
+    color: rgb(117, 92, 117);
+}
+
+/* .lastsection {
+    padding: 20px;
+} */
+.lastpart {
+   width: 50%;
+   display: flex;
+   justify-content: flex-end;
+
+}
+.lastpart button{
+    font-size: 18px;
+    font-weight: 900;
+     height: 60px;
+     width: 300px;
+     border: none;
+     background-color: white;
+     border-radius:25px;
+}
+
+button:hover{
+    transition: 0.5s ease-in-out;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+     background-color:black;
+}
+
+
+
+
